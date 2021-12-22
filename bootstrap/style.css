@@ -1,0 +1,18 @@
+.bg-dark{
+    color: #666666;
+    background-color: #DEDEDE !important ;
+    
+}
+.text-white{
+    color:#C0BAB6 !important;
+}
+.marging{
+    margin-top: -17px !important;
+    background-color: #232323 !important;
+    padding: 10px;
+}
+.space{
+    justify-content: space-around !important;
+    color: #C0BAB6 !important;
+}
+
