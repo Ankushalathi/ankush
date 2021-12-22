@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calc-body{
+    width: 300px;
+    box-shadow: 4px 3px 8px 3px grey;
+    padding:10px;
+  
+}
+
+.display{
+    padding-top:20px;
+    border:1px solid gray;
+    font-size:30px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.btn{
+    height: 30px;
+    width: 80px;
+    margin:5px 0px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

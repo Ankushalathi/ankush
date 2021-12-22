@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Game </title>
+</head>
+<style>
+    .Position{
+        display: inline-block;
+        background-color: gray;
+        margin-left: 450px;
+        width: 150px;
+        height: 100px;
+        
+    }
+    .player2{
+        display: inline-block;
+        background-color:darkgrey;
+        width: 150px;
+        height: 100px;
+    }
+    .roll{
+        margin-left: 475px;
+    }
+    #btn{
+        /* margin: 20px; */
+        width: 50px;
+        height: 35px;
+        margin-left:-130px ;
+        background-color: rgb(67, 67, 161);
+    }
+
+
+</style>
+<body>
+    
+<div class="Position">
+    
+    <h3 >Player 1</h3>
+    <h3 id="score1"></h3></div>
+    
+    
+ <div class="player2">
+    <h3 > Player 2</h3>
+    <h3 id="score2"></h3>
+</div>
+
+<div class="roll"> 
+    <img src="./1.png" id="dice" >
+    <button id="btn">Roll</button>
+    </div>
+
+
+    <script src="./ludoscript.js"></script>
+</body>
+</html>

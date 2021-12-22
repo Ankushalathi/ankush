@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<style>
+    div {
+        margin: 10px 0px;
+    }
+
+    div label {
+        display: inline-block;
+        min-width: 150px;
+    }
+
+    .err {
+        color: red;
+    }
+</style>
+
+<body>
+
+
+    <form id="frm">
+        <div>
+            <label>Name</label>
+            <input type="text" id="name">
+            <p id="nameErr" class="err"></p>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" id="email">
+            <p id="emailErr" class="err"></p>
+        </div>
+
+
+        <div>
+            <label>Password</label>
+            <input type="password" id="pwd">
+            <p id="pwdErr" class="err"></p>
+        </div>
+
+        <button type="submit">Register</button>
+
+
+    </form>
+
+    <!-- <script src="./validation-with-fn-o.js"></script> -->
+    <!-- <script src="./script.js"></script> -->
+    <script src="./validation-with-fn-short.js"></script>
+</body>
+
+</html>
