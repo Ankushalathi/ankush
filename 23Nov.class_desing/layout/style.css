@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    padding: 40px 0px;
+    background-color:#333333;
+    color: #C0BAB6;
+}
+.heading{
+    margin-left: 65px;
+}
+
+.nav{
+    
+    padding: 20px;
+    background-color:#232323;
+    color:#C0BAB6 ;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+     list-style-type: none;
+    margin-right: 35px;
+}
+/* a{
+    text-decoration: none;
+    justify-content: space-evenly;
+}  */
+.continer{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.mt{
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+
+.main{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.item1{
+    width: 45%;
+    padding: 10px;
+     background-color : #919191;
+     color: #232323;
+}
+.item2{
+    margin-left: 50px;
+    width: 50%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+.item3{
+    margin-left: 50px;
+    width:45%;
+    padding: 1x;
+     background-color: #919191;
+     color: #232323;
+}
+
+.item4{
+    
+    width: 30%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+.item5{
+    margin-left: 50px;
+    width: 85%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+.item6{
+    width: 85%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+.item7{
+    margin-left: 50px;
+    width: 30%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+.num1{
+   
+    width: 30%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+
+.num2{
+    margin-left: 50px;
+    width: 30%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+
+.num3{
+    margin-left: 50px;
+    width: 65%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+
+.num4 , .num5 , .num6{
+    margin-left: 50px;
+    width: 39%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+.num4{
+   margin-left: -0px;
+   width: 85%;
+}
+
+.num7 , .num8 , .num9{
+    margin-left: 50px;
+    width: 39%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+.num7{
+    margin-left: -0px;
+    width: 30%;
+}
+.num8{
+    width:65%;
+ }
+.num9{
+    width: 30%;
+}
+.numm2{
+    margin-left: 50px;
+    width: 39%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+.numm1{
+    margin-left: -0px;
+    width: 75%;
+    padding: 10x;
+     background-color: #919191;
+     color: #232323;
+}
+
+.footer{
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #232323;
+    color:  #919191;
+    
+}
+
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+

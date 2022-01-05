@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    padding: 20px 0px;
+    background-color:#333333;
+    color: #C0BAB6;
+}
+.container{
+    width: 88%;
+    margin: 0px auto;
+}
+.nav{
+    background-color:#232323;
+    color: #C0BAB6;
+    padding: 15px;
+}
+.nav , ul{
+    justify-content: space-between;
+    list-style-type: none;  
+}
+.d-flex{
+    display: flex;
+}
+.mt{
+    margin-top: 15px;
+}
+.item{
+    background-color: #dedede;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 15px;
+}

@@ -1,0 +1,42 @@
+.box{
+    width: 100%;
+    
+} 
+
+.bg-primary-custom{
+    background: #1b2a4e !important;
+    width: 100% !important;
+}
+
+
+
+@media (min-width: 480px) {
+    .bg-danger-custom{
+        background-color: pink !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .bg-danger-custom{
+        background-color: mediumaquamarine !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .bg-danger-custom{
+        background-color: sandybrown !important;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .bg-danger-custom{
+        background-color: cyan !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bg-danger-custom{
+        background-color:aliceblue !important;
+    }
+}

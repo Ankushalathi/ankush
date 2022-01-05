@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background:gray;
+    padding:10px 0px
+}
+
+.nav  > li > a{
+    text-decoration: none;
+}
+
+
+.nav > li > ul{
+    list-style-type: none;
+    background:red;
+    position: absolute;
+    display: none;
+
+}
+ul.nav > li > ul > li{
+    padding:5px 10px;   
+}
+
+.nav>li:hover ul{
+    display: block;
+}
+ul.nav > li > ul > li:hover{
+    background:gray;
+}

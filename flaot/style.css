@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-full{
+    height: 100vh;
+    background: url("https://images.wallpaperscraft.com/image/hill_trees_grass_128173_1920x1080.jpg");
+    background-position: 0 -270px;
+
+}
+
+.container{
+    width: 80%;
+
+    margin: 0px auto;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+header h3{
+    color: #fff;
+
+}
+
+ header ul {
+     list-style-type:none;
+     display: flex;
+
+ }
+
+ header ul li {
+     padding: 0px 10px;
+ }
+
+ header ul li a{
+     color: #fff;
+     text-decoration: none;
+
+ }
+ .jumbotron{
+     margin-top: 35vh;
+ }
+
+ .jumbotron h1{
+     font-size: 6rem;
+     color: #fff;
+     text-align: center;
+
+ }
+
+ .jumbotron p{
+     font-size: 2rem;
+     color: #fff;
+     text-align: center;
+ }
+
+
